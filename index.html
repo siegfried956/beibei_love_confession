@@ -110,7 +110,7 @@
     <div class="container">
         <!-- 主页面内容 -->
         <div id="mainContent">
-            <img src="images/cat.png" alt="小猫" class="cat-image" id="catImage">
+            <img src="beibei_love/images/cat.png" alt="小猫" class="cat-image" id="catImage">
             <div class="message">可以成为我的恋人吗？</div>
             <div class="buttons">
                 <button class="button yes" id="yesButton">可以</button>
@@ -120,13 +120,13 @@
      
         <!-- "喜欢你"页面内容 -->
         <div id="yesContent" class="hidden">
-            <img src="images/Chiikawa-yes.gif" alt="小猫" class="final-image animate-heartbeat">
+            <img src="beibei_love/images/Chiikawa-yes.gif" alt="小猫" class="final-image animate-heartbeat">
             <div class="final-message">喜欢你 贝贝！！！</div>
         </div>
      
         <!-- "可是我喜欢你啊"页面内容 -->
         <div id="confessionContent" class="hidden">
-            <img src="images/Chiikawa-no.gif" alt="表白图片" class="final-image">
+            <img src="beibei_love/images/Chiikawa-no.gif" alt="表白图片" class="final-image">
             <div class="final-message">可是我喜欢你啊 贝贝</div>
         </div>
     </div>
@@ -152,7 +152,7 @@
         noButton.addEventListener('click', () => {
             if (!isImageChanged) {
                 // 第一次点击时替换小猫图片
-                catImage.src = 'images/Chiikawa.gif'; // 替换为动图
+                catImage.src = 'beibei_love/images/Chiikawa.gif'; // 修改这里的路径
                 isImageChanged = true; // 标记图片已替换
             }
  
